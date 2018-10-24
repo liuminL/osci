@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Fri Nov 17 13:58:10 2017
+# Process ID: 11040
+# Current directory: D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11020 D:\svn\FPGA\AX7010\zynq_demo_s3\02_lcd7\ts_an071_linux_ax7010\ts_an071_linux.xpr
+# Log file: D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/vivado.log
+# Journal file: D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/ts_an071_linux.xpr
+file copy -force D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/ts_an071_linux.runs/impl_1/system_wrapper.sysdef D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/ts_an071_linux.sdk/system_wrapper.hdf
+
+launch_sdk -workspace D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/ts_an071_linux.sdk -hwspec D:/svn/FPGA/AX7010/zynq_demo_s3/02_lcd7/ts_an071_linux_ax7010/ts_an071_linux.sdk/system_wrapper.hdf

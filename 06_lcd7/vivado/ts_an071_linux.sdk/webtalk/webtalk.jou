@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# 
+# Start of session at: Sun Oct 14 04:39:23 2018
+# Process ID: 17891
+# Current directory: /home/work/06_lcd7/vivado/ts_an071_linux.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/work/06_lcd7/vivado/ts_an071_linux.sdk/webtalk/webtalk.log
+# Journal file: /home/work/06_lcd7/vivado/ts_an071_linux.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

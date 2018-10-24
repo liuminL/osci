@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon Jul 03 21:03:09 2017
+# Process ID: 7940
+# Current directory: Y:/test/ts_an071_linux
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10576 Y:\test\ts_an071_linux\ts_an071_linux.xpr
+# Log file: Y:/test/ts_an071_linux/vivado.log
+# Journal file: Y:/test/ts_an071_linux\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Y:/test/ts_an071_linux/ts_an071_linux.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'y:/project/AX/AX7010/AX7010_CD/02_source/vivado_project/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 809.691 ; gain = 216.438
+INFO: [Vivado 12-4159] Implementation run is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-run implementation and re-generate bitstream before doing hardware export.
+file mkdir Y:/test/ts_an071_linux/ts_an071_linux.sdk
+file copy -force Y:/test/ts_an071_linux/ts_an071_linux.runs/impl_1/system_wrapper.sysdef Y:/test/ts_an071_linux/ts_an071_linux.sdk/system_wrapper.hdf
+
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace Y:/test/ts_an071_linux/ts_an071_linux.sdk -hwspec Y:/test/ts_an071_linux/ts_an071_linux.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace Y:/test/ts_an071_linux/ts_an071_linux.sdk -hwspec Y:/test/ts_an071_linux/ts_an071_linux.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 03 21:05:02 2017...

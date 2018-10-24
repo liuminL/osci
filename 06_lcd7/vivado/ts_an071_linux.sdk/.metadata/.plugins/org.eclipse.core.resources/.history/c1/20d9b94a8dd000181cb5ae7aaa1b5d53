@@ -1,0 +1,35 @@
+/*
+ * test1.c
+ *
+ *  Created on: Oct 15, 2018
+ *      Author: root
+ */
+#include <stdio.h>
+#include "xparameters.h"
+#include "xparameters_ps.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#define DDR_BASEARDDR	XPAR_DDR_MEM_BASEADDR + 0x10000000
+
+//void print(char *str);
+
+int main() {
+	int i;
+	int rev;
+
+	//xil_printf("hello world\n\r");
+	//printf("Hello World\n\r");
+
+	for (i = 0; i < 32; i++) {
+		Xil_Out32(DDR_BASEARDDR + i * 4, i);
+	}
+	for (i = 0; i < 32; i++) {
+		rev = Xil_In32(DDR_BASEARDDR + i * 4);
+		xil_printf("is %x \n\r", DDR_BASEARDDR + i * 4, rev);
+	}
+
+	return 0;
+}
+
+
+
